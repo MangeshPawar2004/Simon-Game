@@ -1,0 +1,146 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+  color: #333;
+}
+
+.top {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.main-title {
+  font-family: "Trebuchet MS", sans-serif;
+  color: #2c3e50;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: "Trebuchet MS", sans-serif;
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.line-one,
+.line-two {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s;
+  border: 4px solid black;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.red {
+  background-color: #e74c3c;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.yellow {
+  background-color: #f1c40f;
+}
+
+.purple {
+  background-color: #9b59b6;
+}
+
+.info {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.description,
+.instructions,
+.tips,
+.enjoy {
+  line-height: 1.6;
+  margin: 0 0 15px 0;
+}
+
+.instructions,
+.tips {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.instructions li,
+.tips li {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #2c3e50;
+}
+
+.flash {
+  background: #fff;
+}
+
+.userFlash {
+  background: #779cab;
+}
+
+.game-over {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 70px;
+    height: 70px;
+  }
+
+  .main-title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .info {
+    padding: 15px;
+  }
+}
